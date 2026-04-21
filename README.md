@@ -17,8 +17,12 @@
 - 10 — 安全与 Guardrails：不让 Agent 失控
 
 ### Phase 2 — 框架与生产（AWS Bedrock）
-- 11+ — Bedrock Agents、Tool use、Knowledge Bases、Action Groups
-- 后续章节：生产部署、观测、多租户、成本控制
+- 11 — 主流框架全景：LangGraph / smolagents / AutoGen 对比
+- 12 — Bedrock Converse API + Tool Use（手搓版的 AWS 对应物）
+- 13 — Bedrock Agents（托管）：Agent / Version / Alias / Trace
+- 14 — Action Groups：给托管 Agent 装"手"（Function Schema + Lambda）
+- 15 — Knowledge Bases：托管 RAG，挂给 Agent 或直接 query
+- 16+ — Guardrails、Memory、观测、Multi-agent、成本调优（待写）
 
 ## 环境
 
