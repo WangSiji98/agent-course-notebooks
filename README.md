@@ -22,7 +22,11 @@
 - 13 — Bedrock Agents（托管）：Agent / Version / Alias / Trace
 - 14 — Action Groups：给托管 Agent 装"手"（Function Schema + Lambda）
 - 15 — Knowledge Bases：托管 RAG，挂给 Agent 或直接 query
-- 16+ — Guardrails、Memory、观测、Multi-agent、成本调优（待写）
+- 16 — Bedrock Guardrails：托管安全层（content / topic / PII / prompt attack）
+- 17 — Agent Memory & Session：sessionId、session state、跨会话 memory
+- 18 — 观测：trace / Model Invocation Logging / Metrics / X-Ray
+- 19 — Multi-Agent on Bedrock：Supervisor / Collaborator 协作
+- 20 — Cost & 性能调优 + 生产上线 checklist（Phase 2 收官）
 
 ## 环境
 
